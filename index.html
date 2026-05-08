@@ -1,8 +1,114 @@
-<title>ZYGames - 主页</title>
-ZYGames - 主页</br>
-<button onclick disabled disabled="location.href='https://ZYZYZSWWQ88882025.github.io/index.html'">主页</button><button onclick="location.href='https://zyzyzswwq88882025.github.io/UpdateData.html'">更新历史</button><button onclick="location.href='https://ZYZYZSWWQ88882025.github.io/support.html'">客服</button><button onclick="location.href='https://qm.qq.com/q/IcxDMiNToW'">QQ群</button></br>
-在此处可以下载大多数的游戏</br>
-ARSONATE Demo：<button onclick="location.href='https://1848897101.share.123865.com/123pan/jOb9vd-4jsYh'">123云盘</button><button onclick="location.href='https://url04.ctfile.com/f/63045004-17569759062008-4a7684?p=3468'">城通网盘</button></br>
-Buckshot Roulette：<button onclick="location.href='https://1848897101.share.123865.com/123pan/jOb9vd-pjsYh'">123云盘</button><button onclick="location.href='https://url04.ctfile.com/f/63045004-17569759064409-3c8bed?p=3468'">城通网盘</button></br>
-CLOVERPIT：<button onclick="location.href='https://1848897101.share.123865.com/123pan/jOb9vd-i7vYh'">123云盘</button><button onclick="location.href='https://url04.ctfile.com/f/63045004-17569759064723-092b39?p=3468'">城通网盘</button></br>
-Prison Escape Simulator Dig Out：<button onclick="location.href='https://1848897101.share.123865.com/123pan/jOb9vd-VObYh'">123云盘</button><button onclick="location.href='https://url04.ctfile.com/f/63045004-17569759080936-2a355e?p=3468'">城通网盘</button></br>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZYGames - 主页</title>
+    <style>
+        /* 全局样式 */
+        body {
+            background-color: #1e2233;
+            color: #fff;
+            font-family: "Microsoft YaHei", sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* 提示框样式 */
+        .tip-box {
+            background-color: #1a332e;
+            border: 2px solid #7ccd7c;
+            border-radius: 16px;
+            padding: 20px 24px;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            max-width: 800px;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 勾选图标 */
+        .check-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #7ccd7c;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .check-icon::after {
+            content: "✓";
+            color: #1a332e;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .tip-text {
+            color: #ffffff;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        /* 按钮样式优化 */
+        button {
+            background-color: #2c3e50;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 4px 4px 4px 0;
+            font-size: 14px;
+        }
+        button:hover:not(:disabled) {
+            background-color: #34495e;
+        }
+        button:disabled {
+            background-color: #555;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <!-- 提示框 -->
+    <div class="tip-box">
+        <div class="check-icon"></div>
+        <p class="tip-text">你的积分商城目标是 我的世界 钻石x300，达到积分目标后可手动兑换。</p>
+    </div>
+
+    <!-- 导航按钮 -->
+    <h2>ZYGames - 主页</h2>
+    <button disabled onclick="location.href='https://ZYZYZSWWQ88882025.github.io/index.html'">主页</button>
+    <button onclick="location.href='https://zyzyzswwq88882025.github.io/UpdateData.html'">更新历史</button>
+    <button onclick="location.href='https://ZYZYZSWWQ88882025.github.io/support.html'">客服</button>
+    <button onclick="location.href='https://qm.qq.com/q/IcxDMiNToW'">QQ群</button>
+    <br><br>
+
+    <!-- 游戏下载区 -->
+    <p>在此处可以下载大多数的游戏</p>
+
+    <p>ARSONATE Demo：
+        <button onclick="location.href='https://1848897101.share.123865.com/123pan/jOb9vd-4jsYh'">123云盘</button>
+        <button onclick="location.href='https://url04.ctfile.com/f/63045004-17569759062008-4a7684?p=3468'">城通网盘</button>
+    </p>
+
+    <p>Buckshot Roulette：
+        <button onclick="location.href='https://1848897101.share.123865.com/123pan/jOb9vd-pjsYh'">123云盘</button>
+        <button onclick="location.href='https://url04.ctfile.com/f/63045004-17569759064409-3c8bed?p=3468'">城通网盘</button>
+    </p>
+
+    <p>CLOVERPIT：
+        <button onclick="location.href='https://1848897101.share.123865.com/123pan/jOb9vd-i7vYh'">123云盘</button>
+        <button onclick="location.href='https://url04.ctfile.com/f/63045004-17569759064723-092b39?p=3468'">城通网盘</button>
+    </p>
+
+    <p>Prison Escape Simulator Dig Out：
+        <button onclick="location.href='https://1848897101.share.123865.com/123pan/jOb9vd-VObYh'">123云盘</button>
+        <button onclick="location.href='https://url04.ctfile.com/f/63045004-17569759080936-2a355e?p=3468'">城通网盘</button>
+    </p>
+</body>
+</html>

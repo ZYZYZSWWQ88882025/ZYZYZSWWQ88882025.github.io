@@ -1,6 +1,84 @@
-<title>ZYGames - 客服</title>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZYGames - 客服</title>
+    <style>
+        /* 全局样式 */
+        body {
+            background-color: #1e2233;
+            color: #fff;
+            font-family: "Microsoft YaHei", sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* 提示框样式 */
+        .tip-box {
+            background-color: #1a332e;
+            border: 2px solid #7ccd7c;
+            border-radius: 16px;
+            padding: 20px 24px;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            max-width: 800px;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 勾选图标 */
+        .check-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #7ccd7c;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .check-icon::after {
+            content: "✔";
+            color: #1a332e;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .tip-text {
+            color: #ffffff;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        /* 按钮样式优化 */
+        button {
+            background-color: #2c3e50;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 4px 4px 4px 0;
+            font-size: 14px;
+        }
+        button:hover:not(:disabled) {
+            background-color: #34495e;
+        }
+        button:disabled {
+            background-color: #555;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航按钮 -->
 ZYGames - 客服</br>
 <button onclick="location.href='https://ZYZYZSWWQ88882025.github.io/index.html'">主页</button><button onclick="location.href='https://zyzyzswwq88882025.github.io/UpdateData.html'">更新历史</button><button onclick disabled="location.href='https://ZYZYZSWWQ88882025.github.io/support.html'">客服</button><button onclick="location.href='https://qm.qq.com/q/IcxDMiNToW'">QQ群</button></br>
 问题反馈</br>
 <button onclick="location.href='https://qualtricsxm3t5bt8tz5.qualtrics.com/jfe/form/SV_cXSt0qAzYC4csXY'">反馈问题</button></br>
 备选方式：发送你的反馈到电子邮件：zygames-0@outlook.com</br>
+</body>
+</html>
